@@ -73,7 +73,6 @@ body {
 }
 
 
-
 body div h2 {
     margin: 2rem 0;
 }
@@ -92,7 +91,13 @@ body div ol li {
 #trainers {
     margin-top: 2rem;
     margin-bottom:2rem;
-}
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #FFFFFF;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    }
 
 
 #trainers h2 {
@@ -124,7 +129,7 @@ body div ol li {
     color: #FFFFFF;
     cursor: pointer;
     height: 60px;
-}
+   }
 
 a {
     font-style: normal;
@@ -142,9 +147,9 @@ a {
     margin-right:5px;
 }
 
-section h3 {
+/* section h3 {
     color: rgb(0, 0, 0);
-}
+} */
 
 #icons {
    display: inline-flex;
@@ -152,6 +157,7 @@ section h3 {
    font-size: 30px;
    color: #FFFFFF;
    margin-bottom: 23%;
+   margin-top: 1rem;
 }
 
 #icons li {
