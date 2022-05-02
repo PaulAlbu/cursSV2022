@@ -78,10 +78,15 @@ body div h2 {
     margin: 2rem 0;
 }
 
+body div ol {
+    padding-left: 20px;
+}
 
 body div ol li {
     font-weight:lighter; 
     margin: 1rem 0;
+    font-size: 20px;
+
 }
 
 #trainers {
