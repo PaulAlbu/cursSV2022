@@ -30,7 +30,7 @@ header img {
      height: 3.5rem;
      padding-top: 10px;
      padding-bottom: 10px;
-     background-color: inherit;
+     background-color: inherit;    
 }
 
 #main {
@@ -43,7 +43,18 @@ header img {
 #main img {
     height: 4rem;
     margin-right: 1rem;
-    
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: 2;
+    animation-timing-function: 2;
+}
+
+@keyframes spin { 
+    from { 
+        transform: rotate(0deg); 
+    } to { 
+        transform: rotate(360deg); 
+    }
 }
 
 #main h1 {
