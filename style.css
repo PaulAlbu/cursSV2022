@@ -123,6 +123,7 @@ body div ol li {
     background-image: linear-gradient(45deg, #0093E9 0%, #80D0C7 100%);
     color: #FFFFFF;
     cursor: pointer;
+    height: 60px;
 }
 
 a {
