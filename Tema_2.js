@@ -62,7 +62,7 @@ function strsOnly(saveStrings){                             //varianta 3 de scri
   console.log(strsOnly(saveStrings))
 
   //___pb 4 _________________________________________________________________________
-  const addDigits = "15237";
+  const addDigits = "15237b";
   const oddNrs = addDigits => {                             //varianta 4 de scriere a unei functii
     let fin = 0;
     for(let i = 0; i< addDigits.length; i++){
